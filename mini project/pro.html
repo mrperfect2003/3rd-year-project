@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVJCANTEEN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <a href="#" class="logo"><i class="fas-fa-utensils"></i></a>
+
+</head>
+<body>
+    <header>
+         <a href="#" class="logo"><i class="fas-fa-untensils"></i>MVJ<b>Canteen</b></a>
+         <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">menu</a>
+            <a href="#order">order</a>
+            <a href="#about">about</a>
+            <a href="#footer">Contact</a>
+         </nav>
+         <div class="icon">
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+         </div>
+    </header>
+    <!-- <section class="cart-overflow">
+        <div class="cart-innerplay">
+            <header class="cart-title text-center md">
+                <div>your cart</div>
+                <div>
+                    <i class="fas fa-shopping-cart"
+                    onclick="cartoverplay.classlist.remove('show');
+                    cartinnerplay.classlist.remove('showcart');">
+                    </i>
+                </div>
+            </header>
+            <div class="cart-items-container py-2"></div>
+            <hr class="py-1">
+            <div class="cart-footer text center sm">
+                order successfull
+                <div>your total: &#8377;<span class="cart-total sm">0</span></div>
+                <div class="my-1">
+                    <button class="cler-cart">clear cart</button>
+                    <button class="check-out">check out</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>  -->
+    <search form>
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here.."  name=""id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <section class="home"id="home">
+        <div class=" swiper home-slider">
+            <div class=" swiper-wrapper wrapper">
+                <div class=" swiper-slide slide">
+                    <div class="content">
+                        <span>save time,order prior</span>
+                        <h3>we serve hot!!</h3>
+                    </div>
+                    <div class="image">
+                        <img  src="dosa-modified.png" alt="food" style="float: right; height: 500px; width: 500px;">
+                    </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading">popular</h3>
+        <h1 class="heading">MENU:</h1>
+        <div class="box-container">
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="veg maggi.jpg" alt="">
+                <h3>veg maggi
+
+                </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.40</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="wrap.jpg" alt="">
+                <h3>wrap</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.60</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="cheesy pasta.jpg" alt="">
+                <h3>chessy pasta</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.120</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="burger.jpg" alt="">
+                <h3>burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.60</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="cho pastry.jpg" alt="">
+                <h3>chocolate pastry</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.50</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="sandwitch.jpg" alt="">
+                <h3>sandwitch</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.60</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="fruitbasket.jpg" alt="">
+                <h3>fruit basket</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.80</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="ffries.jpg" alt="">
+                <h3>french fries</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.100</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="coldc.jpg" alt="">
+                <h3>cold coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.120</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="PaniPuri.jpg" alt="">
+                <h3>Pani Puri</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.20</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="SevPuri.jpg" alt="">
+                <h3>Sev Puri</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.60</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="bhel.jpg" alt="">
+                <h3>Bhel Puri</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <span>RS.50</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+       </section>
+
+       <section class="order" id="order">
+        <h1>order now!</h1>
+        <form onorder="mail();reset();return false;">
+            <div class="inputbox">
+                <div class="input">
+                    <span>name</span>
+                    <input type="text" name="name" id="name" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>usn</span>
+                    <input type="text" id="usn" placeholder="enter your usn">
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" id="order"   placeholder="enter item name">
+                </div>
+                <div class="input">
+                    <span>additional</span>
+                    <input type="text" id="add" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input">
+                    <span>quantity</span>
+                    <input type="number" id="quantity" placeholder="quantity">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local" id="dt">
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input">
+                    <span>payment:<br> <br>UPI ID:mvjcanteen@oksbi</br></br></span>
+                    <input type="text" id="pay"placeholder="transation id">
+                </div>
+                <div class="input">
+                    <span>message</span>
+                    <textarea name="" id="mess" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="order" class="btn">
+
+
+        </form>
+
+    </section>
+
+
+       <section class="about" id="about">
+        <h3 class="sub-heading">about us...</h3>
+        <h1 class heading>official webisite of mvjce canteen</h1>
+        <div class="row">
+            <div class="image">
+                <img src="mvj.webp" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>This is the official page of mvj canteen.where you can order the food prior and save time.this website consists the menu of mvjce main canteen.</h3>
+        
+        </div>
+       </section>
+
+       <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>location</h3>
+                <a href="#">mvj college of engineering chansandra main road  <br> whitefield banglore <br> 560067</a>
+                
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+91 12345678</a>
+                <a href="#">mvjcecanteen@gmail.com</a>
+                <a href="#">mvjce@gmail.com</a>
+                <a href="#">Banglore,India -560067</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.instagram.com/mvjcollegeofengineering/">Instagram</a>
+                <a href="https://www.facebook.com/mvjceofficial">facebook</a>
+                <a href="https://twitter.com/mvjceofficial">twitter</a>
+            </div>
+        </div>
+        <div class="credit"> copyright @ 2023 by <span>Jugalkishor</span></div>
+       </section> 
+       <script src="app.js">
+</script>
+
+
+
+
+
+</body>
+</html>
